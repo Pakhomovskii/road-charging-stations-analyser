@@ -1,1 +1,4 @@
-aiohttp~=3.9.5
+aiohttp==3.9.5
+pytest==8.2.1
+SQLAlchemy==2.0.30
+asyncpg==0.29.0
