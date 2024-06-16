@@ -2,14 +2,12 @@ from sqlalchemy import create_engine, Column, Integer, String, Boolean
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-# Параметры подключения (измените на свои)
+
 DATABASE_URL = "postgresql://postgres:mysecretpassword@localhost/road_helper"
 
-# Создание движка и сессии
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
 
-# Базовый класс для моделей SQLAlchemy
 Base = declarative_base()
 
 
@@ -23,7 +21,7 @@ class Route(Base):
     distance = Column(Integer)
     is_possible = Column(Boolean)
 
-    def __repr__(self):  # Для удобного вывода
+    def __repr__(self):
         return f"<Route(city1='{self.city1}', city2='{self.city2}', road='{self.road}', distance={self.distance}, is_possible={self.is_possible})>"
 
 # Открываем сессию

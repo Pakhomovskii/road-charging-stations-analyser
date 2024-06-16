@@ -6,6 +6,21 @@ accept: application/json
 
 ###
 
+POST http://64.226.89.177:88/calculate_route
+Accept: application/json
+Content-Type: application/json
+
+{
+  "city1": "Wolfsburg",
+  "city2": "Berlin",
+  "road": "A2",
+  "user_current_distance": "ds",
+  "user_max_distance": 300
+}
+
+
+###
+
 POST http://localhost:8080/calculate_route
 Accept: application/json
 Content-Type: application/json
@@ -14,6 +29,6 @@ Content-Type: application/json
   "city1": "Wolfsburg",
   "city2": "Berlin",
   "road": "A2",
-  "user_current_distance": 25.0,
+  "user_current_distance": 21121,
   "user_max_distance": 300
 }
