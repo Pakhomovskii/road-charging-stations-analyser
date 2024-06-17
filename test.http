@@ -14,7 +14,7 @@ Content-Type: application/json
   "city1": "Wolfsburg",
   "city2": "Berlin",
   "road": "A2",
-  "user_current_distance": "ds",
+  "user_current_distance": 123,
   "user_max_distance": 300
 }
 
@@ -29,6 +29,6 @@ Content-Type: application/json
   "city1": "Wolfsburg",
   "city2": "Berlin",
   "road": "A2",
-  "user_current_distance": 21121,
+  "user_current_distance": 1,
   "user_max_distance": 300
 }
