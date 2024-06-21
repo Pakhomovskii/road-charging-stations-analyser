@@ -19,7 +19,6 @@ class Route(Base):
     city1 = Column(String)
     city2 = Column(String)
     road = Column(String)
-    distance = Column(Float)
     is_possible = Column(Boolean)
     problem_point1 = Column(String, nullable=True)
     problem_point2 = Column(String, nullable=True)
