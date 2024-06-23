@@ -3,6 +3,7 @@ from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from templates.constants import DATABASE_URL
 
 
+# Подключение к базе данных (замените на ваши данные)
 
 @pytest.fixture(scope="session")
 async def async_engine():
