@@ -21,7 +21,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import OneHotEncoder
 
 # Data loading
-df = pd.read_csv('/Users/pahomovskij/PycharmProjects/road-helper/routes.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Pakhomovskii/road-helper/main/routes.csv')
 
 # Preprocessing
 df.fillna(0, inplace=True)
