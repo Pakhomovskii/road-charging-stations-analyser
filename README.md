@@ -22,6 +22,28 @@
 - **Geopy:** Library for geocoding and working with geographic data.
 - **Google Maps API:** Provides route and geolocation data.
 
+### Structure of the project
+```yaml
+├── app/                   
+│   ├── __init__.py        
+│   ├── db.py             # Database interaction logic (models)
+│   ├── routing.py        # Core route calculation and logic 
+├── templates/         
+│   ├── __init__.py    
+│   ├── constants.py      # Template constants or configurations
+├── tests/                 
+│   ├── __init__.py
+│   ├── conftest.py       # Pytest fixtures and configurations
+│   ├── test_routing.py   # Tests for routing logic
+├── .gitignore            
+├── create_db.sh          # Shell script to create the database
+├── generate_data.py      # Script for generating sample data for ML
+├── ml_analyzing.py       # Machine learning analysis of the possibility of route
+├── README.md             
+├── requirements.txt      
+├── routes.csv            # Data to analyze
+├── server.py             # Main server script to run the application
+```
 ___
 ### Core Route Calculation
 This module is the heart of the Road Helper API, providing the essential logic for calculating routes, finding electric charging stations along the way, and determining if the destination is reachable given the user's electric vehicle's range.
