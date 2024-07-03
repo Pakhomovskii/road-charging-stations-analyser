@@ -24,10 +24,9 @@ from sklearn.preprocessing import OneHotEncoder
 df = pd.read_csv('/Users/pahomovskij/PycharmProjects/road-helper/routes.csv')
 
 # Preprocessing
-# Example of filling missing values
 df.fillna(0, inplace=True)
 
-# Encoding categorical variables (example)
+# Encoding categorical variables
 encoder = OneHotEncoder()
 encoded_features = encoder.fit_transform(df[['city1', 'city2', 'road']]).toarray()
 
