@@ -4,9 +4,9 @@
 [![Aiohttp](https://img.shields.io/badge/Aiohttp-3.9.5-green.svg)](https://docs.aiohttp.org/en/stable/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-orange.svg)](https://www.postgresql.org/)
 
-⚡️ **Road Helper API** is a powerful tool for calculating routes with electric charging stations and analyzing the reachability of destinations for electric vehicles.
+**Road Helper API** is a powerful tool for calculating routes with electric charging stations and analyzing the reachability of destinations for electric vehicles.
 
-### ✨ Features
+### Features
 
 - **Route Calculation:** Determines the optimal route between two cities.
 - **Charging Stations:** Locates electric charging stations along the route, taking into account the electric vehicle's range.
@@ -16,7 +16,7 @@
 ### Application operation diagram
 <img width="558" alt="Screenshot 2024-07-03 at 15 26 19" src="https://github.com/Pakhomovskii/road-helper/assets/69305661/589b88d1-7383-46f2-b3da-4d87cda9de3a">
 
-### 🚀 Technologies
+### Technologies
 
 - **Python 3.11:** High-level programming language for backend development.
 - **Aiohttp:** Asynchronous framework for building web applications.
