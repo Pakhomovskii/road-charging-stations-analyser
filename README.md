@@ -20,7 +20,6 @@
 - **Aiohttp:** Asynchronous framework for building web applications.
 - **PostgreSQL:** Robust and reliable relational database for storing information.
 - **Asyncpg:** Asynchronous driver for interacting with PostgreSQL.
-- **Geopy:** Library for geocoding and working with geographic data.
 - **Google Maps API:** Provides route and geolocation data.
 
 ### Structure of the project
