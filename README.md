@@ -47,7 +47,7 @@
 ___
 ### Core Route Calculation
 This module is the heart of the Road Helper API, providing the essential logic for calculating routes, finding electric charging stations along the way, and determining if the destination is reachable given the user's electric vehicle's range.
-___
+
 ***Functionality:***
 
 *Data Input and Validation:* The calculate_route function receives a request containing the starting city (city1), destination city (city2), highway/road number (road), the user's current distance traveled (user_current_distance), and the maximum range of the vehicle (user_max_distance). It validates this input to ensure data integrity.
