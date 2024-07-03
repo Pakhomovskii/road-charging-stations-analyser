@@ -48,7 +48,7 @@ ___
 ### Core Route Calculation
 This module is the heart of the Road Helper API, providing the essential logic for calculating routes, finding electric charging stations along the way, and determining if the destination is reachable given the user's electric vehicle's range.
 
-- Functionality:
+***Functionality:***
 
 *Data Input and Validation:* The calculate_route function receives a request containing the starting city (city1), destination city (city2), highway/road number (road), the user's current distance traveled (user_current_distance), and the maximum range of the vehicle (user_max_distance). It validates this input to ensure data integrity.
 
@@ -64,7 +64,7 @@ Geocoding and Distance Calculation: Using the Geopy library, the function conver
 
 *Database Logging:*  A crucial aspect is the interaction with a PostgreSQL database. The function saves information about each route calculation request, including the cities, road, whether the route is reachable, and details of any unreachable segments. This data is valuable for tracking user behavior, identifying popular routes, and analyzing the effectiveness of the system.
 
-- Testing:
+***Testing:***
 
 This module includes a suite of pytest tests to ensure the correctness and reliability of its functionality. These tests cover various scenarios, including:
 
@@ -78,7 +78,7 @@ This module includes a suite of pytest tests to ensure the correctness and relia
 
 *Database interactions:* Ensuring that route data is correctly stored and retrieved from the database.
 
-- Error Handling:
+***- Error Handling:***
 
 The code includes robust error handling to gracefully handle situations such as invalid input data, failures in fetching external data, and database errors. Appropriate error messages and HTTP status codes are returned in such cases.
 
