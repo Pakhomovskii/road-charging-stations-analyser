@@ -70,6 +70,6 @@ This module includes a suite of pytest tests to ensure the correctness and relia
 ___
 ***Error Handling:***
 
-The code includes robust error handling to gracefully handle situations such as invalid input data, failures in fetching external data, and database errors. Appropriate error messages and HTTP status codes are returned in such cases.
+The code includes robust error handling to gracefully handle situations such as invalid input data, and failures in fetching external data. Appropriate error messages and HTTP status codes are returned in such cases.
 
 
