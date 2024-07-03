@@ -66,17 +66,7 @@ Geocoding and Distance Calculation: Using the Geopy library, the function conver
 
 ***Testing:***
 
-This module includes a suite of pytest tests to ensure the correctness and reliability of its functionality. These tests cover various scenarios, including:
-
-*Input validation:* Testing for valid and invalid input data.
-
-*Geocoding:* Verifying that city names are correctly converted to coordinates.
-
-*Charging station data fetching:* Checking if the API call to retrieve charging station data is successful.
-
-*Reachability calculations:* Validating the accuracy of the reachability analysis algorithm.
-
-*Database interactions:* Ensuring that route data is correctly stored and retrieved from the database.
+This module includes a suite of pytest tests to ensure the correctness and reliability of its functionality.
 
 ***- Error Handling:***
 
