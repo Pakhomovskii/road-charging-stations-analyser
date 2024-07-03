@@ -13,6 +13,9 @@
 - **Reachability Analysis:** Assesses whether the destination is reachable based on the current battery level and maximum range.
 - **Database Logging:** Stores information about each request (successful/unsuccessful) and route reachability in a PostgreSQL database for analysis and statistics.
 
+### Application operation diagram
+<img width="558" alt="Screenshot 2024-07-03 at 15 26 19" src="https://github.com/Pakhomovskii/road-helper/assets/69305661/589b88d1-7383-46f2-b3da-4d87cda9de3a">
+
 ### 🚀 Technologies
 
 - **Python 3.11:** High-level programming language for backend development.
