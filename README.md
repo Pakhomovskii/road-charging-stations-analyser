@@ -55,13 +55,5 @@ Geocoding and Distance Calculation: Using the Geopy library, the function conver
 *Reachability Analysis:* The core of the algorithm lies in the calculate_reachability function. It checks whether the entire route is reachable by the electric vehicle (with the possibility of charging), taking into account the current battery level and the maximum range. If the route is not entirely reachable, the function identifies specific segments that are beyond the vehicle's range.
 
 *Database Logging:*  A crucial aspect is the interaction with a PostgreSQL database. The function saves information about each route calculation request, including the cities, road, whether the route is reachable, and details of any unreachable segments. This data is valuable for tracking user behavior, identifying popular routes, and analyzing the effectiveness of the system.
-___
-***Testing:***
-
-This module includes a suite of pytest tests to ensure the correctness and reliability of its functionality.
-___
-***Error Handling:***
-
-The code includes robust error handling to gracefully handle situations such as invalid input data, and failures in fetching external data. Appropriate error messages and HTTP status codes are returned in such cases.
 
 
