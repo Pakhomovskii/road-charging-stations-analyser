@@ -5,7 +5,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-orange.svg)](https://www.postgresql.org/)
 [![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0.31-green.svg)](https://www.sqlalchemy.org/)
 
-**Road Helper API** is a powerful tool for calculating routes with electric charging stations and analyzing the reachability of destinations for electric vehicles.
+a tool for calculating routes with electric charging stations and analyzing the reachability of destinations for electric vehicles.
 
 ### Features
 
