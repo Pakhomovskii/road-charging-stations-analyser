@@ -1,4 +1,4 @@
-##  ⚡🔌🚗 Road E Helper API ⚡🔌🚗
+### Road E Helper API
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![Aiohttp](https://img.shields.io/badge/Aiohttp-3.9.5-green.svg)](https://docs.aiohttp.org/en/stable/)
