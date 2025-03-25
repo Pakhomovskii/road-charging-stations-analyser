@@ -14,14 +14,6 @@
 - **Reachability Analysis:** Assesses whether the destination is reachable based on the current battery level and maximum range.
 - **Database Logging:** Stores information about each request (successful/unsuccessful) and route reachability in a PostgreSQL database for analysis and statistics.
 
-### Technologies
-
-- **Python 3.11:** High-level programming language for backend development.
-- **Aiohttp:** Asynchronous framework for building web applications.
-- **PostgreSQL:** Robust and reliable relational database for storing information.
-- **Asyncpg:** Asynchronous driver for interacting with PostgreSQL.
-- **Google Maps API:** Provides route and geolocation data.
-
 ### Structure of the project
 ```yaml
 ├── app/                   
